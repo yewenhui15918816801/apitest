@@ -9,6 +9,7 @@ print(type(a))
 b = 'ywh'
 print(type(b))
 c = ['a','b','c']
+e="ywywywyy"
 print(type(c))
 d=('a','b','c')
 print(type(d))
