@@ -3,7 +3,7 @@ import sys
 sys.path.append('..')
 from config.config import *
 
-
+# 定义了用例执行情况信息的方法
 def log_case_info(case_name, url, data, expect_res, res):
     if isinstance(data,dict):
         data = json.dumps(data, ensure_ascii=False)  # 如果data是字典格式，转化为字符串
